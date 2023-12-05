@@ -1,4 +1,4 @@
-# AI_ComputerVision_for_AR_in_CPP
+# AI Computer Vision for AR in CPP
 A C++ project for training AI models to read Yann LeCun's MNIST handwritten digits data set for integration in AR
 
 C++ pointers provide an efficient way of dealing with large data sets without the need for duplication.
