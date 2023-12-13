@@ -195,11 +195,11 @@ int main() {
 			dh->get_training_data()->at(0)->get_normalized_feature_vector()->size(),
 			dh->get_class_counts(),
 			0.25);
-		//net->set_training_data(dh->get_training_data());
-		//net->set_test_data(dh->get_test_data());
-		//net->set_validation_data(dh->get_validation_data());
-		//net->train(15);
-		//net->validate();
+		net->set_training_data(dh->get_training_data());
+		net->set_test_data(dh->get_test_data());
+		net->set_validation_data(dh->get_validation_data());
+		net->train(15);
+		net->validate();
 		printf("Test Performance: %.3f\n", net->test());
 	//};
 	//lambda();
