@@ -3,5 +3,7 @@ A C++ project for training AI models on Yann LeCun's MNIST handwritten digits da
 
 TO RUN: Add train-images.idx3-ubyte and train-labels.idx1-ubyte binary files into the root project directory. Comment out (or in) the different main() functions to test the prediction performance of the various models eg; multi-layer perceptron with back propagation, KMeans, KNN etc.
 
+CNN uses Eigin as per tensor flow, download from here and add Eigin folder to project: https://eigen.tuxfamily.org/index.php?title=Main_Page
+
 This repo is adapted from the following YouTube tutorial: 
 https://www.youtube.com/watch?v=E1K9SZCm0fQ&t=3601s
